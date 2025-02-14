@@ -50,8 +50,8 @@ function MeetTheDevelopersPage() {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 flex-shrink-0">
+        <div className="flex flex-col items-center pb-10 mx-auto mb-10 border-b border-gray-200 lg:w-3/5 sm:flex-row">
+          <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-pink-500 bg-pink-100 rounded-full sm:w-32 sm:h-32 sm:mr-10">
             {/* Image */}
             <Image
               src={geoUrl}
@@ -62,17 +62,17 @@ function MeetTheDevelopersPage() {
               alt="Image"
             />
           </div>
-          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+          <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+            <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
               Georgey V B
             </h2>
-            <p className="leading-relaxed text-base">
+            <p className="text-base leading-relaxed">
               Full-Stack and JamStack developer.
             </p>
             <Link href="https://www.linkedin.com/in/georgeyvb/">
               <a
                 target="_blank"
-                className="mt-3 text-pink-500 inline-flex items-center"
+                className="inline-flex items-center mt-3 text-pink-500"
               >
                 Learn More
                 <svg
@@ -90,19 +90,19 @@ function MeetTheDevelopersPage() {
             </Link>
           </div>
         </div>
-        <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+        <div className="flex flex-col items-center pb-10 mx-auto mb-10 border-b border-gray-200 lg:w-3/5 sm:flex-row">
+          <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+            <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
               Amisha Naik
             </h2>
-            <p className="leading-relaxed text-base">
+            <p className="text-base leading-relaxed">
               An aspiring software developer. Currently pursuing bachelor degree
               in Computer engineering.
             </p>
             <Link href="https://www.linkedin.com/in/amisha-naik-b2a633191">
               <a
                 target="_blank"
-                className="mt-3 text-pink-500 inline-flex items-center"
+                className="inline-flex items-center mt-3 text-pink-500"
               >
                 Learn More
                 <svg
@@ -119,7 +119,7 @@ function MeetTheDevelopersPage() {
               </a>
             </Link>
           </div>
-          <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 flex-shrink-0">
+          <div className="inline-flex items-center justify-center flex-shrink-0 order-first w-20 h-20 text-pink-500 bg-pink-100 rounded-full sm:w-32 sm:order-none sm:h-32 sm:ml-10">
             <Image
               src={amishaUrl}
               className="rounded-full"
@@ -130,8 +130,8 @@ function MeetTheDevelopersPage() {
             />
           </div>
         </div>
-        <div className="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
-          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 flex-shrink-0">
+        <div className="flex flex-col items-center mx-auto lg:w-3/5 sm:flex-row">
+          <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-pink-500 bg-pink-100 rounded-full sm:w-32 sm:h-32 sm:mr-10">
             <Image
               src={saifUrl}
               className="rounded-full"
@@ -141,17 +141,17 @@ function MeetTheDevelopersPage() {
               alt="Image"
             />
           </div>
-          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Saif Farooqui
+          <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+            <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
+              Saif Farooqu
             </h2>
-            <p className="leading-relaxed text-base">
+            <p className="text-base leading-relaxed">
               Computer Science student and aspiring software developer.
             </p>
             <Link href="https://www.linkedin.com/in/saif-farooqui">
               <a
                 target="_blank"
-                className="mt-3 text-pink-500 inline-flex items-center"
+                className="inline-flex items-center mt-3 text-pink-500"
               >
                 Learn More
                 <svg
